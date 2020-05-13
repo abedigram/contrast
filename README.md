@@ -1,4 +1,4 @@
-<p align="center"><img src="contrast.svg"></p>
+<p align="center"><img src="md-asset/contrast.svg"></p>
 
 # contrast
 a Tourism specific purpose, nuxt.js based factory to build Iranian business ecosystem compatible utilities and code
