@@ -1,0 +1,33 @@
+:root{
+  --size: 200px;
+}
+div.cont{
+  margin: 3em;
+  position: relative;
+  width: calc(var(--size) * 2);
+  height: calc(var(--size) * 2);
+}
+.right,
+.left {
+  height: calc(var(--size) * 2);
+  width: var(--size);
+}
+.right {
+  border-bottom-right-radius: calc(var(--size) * 2);
+  border-top-right-radius: calc(var(--size) * 2);
+  background-color: purple;
+    top: calc(var(--size) / 2.8);
+  right: calc(var(--size) / 6.5);
+}
+.left {
+  border-bottom-left-radius: calc(var(--size) * 2);
+  border-top-left-radius: calc(var(--size) * 2);
+  background-color: yellow;
+  bottom:  calc(var(--size) / 2.9);
+  left: calc(var(--size) / 7);
+}
+.rotate{
+      transform: rotate(45deg);
+    display: inline-block;
+  position: absolute;
+}
